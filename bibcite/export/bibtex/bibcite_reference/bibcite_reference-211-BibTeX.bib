@@ -1,0 +1,19 @@
+@conference{211,
+  author = {Bruce Watson},
+  title = {The impact of using a contract-driven, test-interceptor based software development approach},
+  abstract = {A contract-driven development approach requires the formalization of component requirements in the form of a component contract. The Use Case, Responsibility Driven Analysis and Design (URDAD) methodology is based on the contract-driven development approach and uses contracts to capture user requirements and perform a technology-neutral design across layers of granularity. This is achieved by taking use-case based functional requirements through an iterative design process and generating various levels of granularity iteratively. 
+In this project, the component contracts that were captured by utilizing the URDAD approach are used to generate test interceptors which validate whether, in the context of rendering component services, the component contracts are satisfied. To achieve this, Java classes and interfaces are annotated with pre- and postconditions to represent the contracts in code. Annotation processors are then used to automatically generate test-interceptor classes by processing the annotations. The test-interceptor classes encapsulate test-logic and are interface-compatible with their underlying component counterparts. This enable test-interceptors to intercept service requests to the underlying counterpart components in order to verify contract adherence. The generated test interceptors can be used for unit testing as well as real-time component monitoring. This development approach, utilized within the URDAD methodology would then result in unit and integration tests across levels of granularity. 
+Empirical data from actual software development projects will be used to assess the impact of introducing such a development approach in real software development projects. In particular, the study assesses the impact on the quality attributes of the software development process, as well as the qualities of the software produced by the process.
+Process qualities measured include development productivity (the rate at which software is produced), correctness (the rate at which the produced software meets the clients requirements) and the certifiability of the software  development process (which certifiability requirements are fully or partially addressed by the URDAD development approach). Software qualities measured include reusability (empirical and qualitative), simplicity (the inverse of the complexity measure) and bug density (number of defects in a module). 
+The study aims to show conclusively how the approach impacts the creation of correct software which meets the client requirements, how productivity is affected and if the approach enhances or hinders certifiability. The study also aims to determine if testinterceptors
+are a viable mechanism to produce high-quality tests that contribute to the creation of correct software. Furthermore, the study aims to determine if the software produced by applying this approach yield improved reusability or not, if the software becomes
+more or less complex and if more or less bugs are induced.},
+  year = {2018},
+  journal = {Annual conference of The South African Institute of Computer Scientists and Information Technologists (SAICSIT 2018)},
+  chapter = {322-326},
+  month = {26/09-28/09},
+  publisher = {ACM},
+  address = {New York},
+  isbn = {123-4567-24-567/08/06},
+  url = {https://doi.org/10.475/123_4},
+}

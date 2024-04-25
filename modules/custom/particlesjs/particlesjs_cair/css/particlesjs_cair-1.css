@@ -1,0 +1,64 @@
+#particles-js {
+  background-color: #0F386C;
+}
+
+#particles-js .particles-js-canvas-el {
+    opacity:1;
+}
+
+#particles-js .particles-js-canvas-el {
+    opacity:1;
+}
+
+.fade-in #particles-js .particles-js-canvas-el {
+    -webkit-animation:fade-in 1s 1;
+    animation:fade-in 1s 1;
+}
+
+.appear #particles-js .particles-js-canvas-el {
+    -webkit-animation:appear 1.4s 1;
+    animation:appear 1.4s 1;
+}
+
+@-webkit-keyframes appear {
+    from {
+        -ms-transform:scale(0);
+        -webkit-transform:scale(0);
+        transform:scale(0);
+        opacity:0;
+    }
+    to {
+        -ms-transform:scale(1);
+        -webkit-transform:scale(1);
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+@keyframes appear {
+    from {
+        -ms-transform:scale(0);
+        -webkit-transform:scale(0);
+        transform:scale(0);
+        opacity:0;
+    }
+    to {
+        -ms-transform:scale(1);
+        -webkit-transform:scale(1);
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+      

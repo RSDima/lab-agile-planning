@@ -1,0 +1,13 @@
+@conference{398,
+  keywords = {Word embeddings, Word2Vec, fastText, Doc2Vec, TFIDF, Deep Neural Networks, CatBoost},
+  author = {Rhyno Strydom and Etienne Barnard},
+  title = {Classifying recognised speech with deep neural networks},
+  abstract = {We investigate whether word embeddings using deep neural networks can assist in the analysis of text produced by a speechrecognition system. In particular, we develop algorithms to identify which words are incorrectly detected by a speech-recognition system in broadcast news. The multilingual corpus used in this investigation contains speech from the eleven official South African languages, as well as Hindi. Popular word embedding algorithms such as Word2Vec and fastText are investigated and compared with context-specific embedding representations such as Doc2Vec and non-context specific statistical sentence embedding methods such as term frequency-inverse document frequency (TFIDF), which is used as our baseline method. These various embeddding methods are then used as fixed length input representations for a logistic regression and feed forward neural network classifier. The output is used as an additional categorical input feature to a CatBoost classifier to determine whether the words were correctly recognised. Other methods are also investigated, including a method that uses the word embedding itself and cosine similarity between specific keywords to identify whether a specific keyword was correctly detected. When relying only on the speech-text data, the best result was obtained using the TFIDF document embeddings as input features to a feed forward neural network. Adding the output from the feed forward neural network as an additional feature to the CatBoost classifier did not enhance the classifier’s performance compared to using the non-textual information provided, although adding the output from a weaker classifier was somewhat beneficial},
+  year = {2020},
+  journal = {Southern African Conference for Artificial Intelligence Research},
+  chapter = {191-205},
+  month = {22/02/2021 - 26/02/2021},
+  publisher = {Southern African Conference for Artificial Intelligence Research},
+  address = {South Africa},
+  isbn = {978-0-620-89373-2},
+}
